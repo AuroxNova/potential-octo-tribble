@@ -1,0 +1,7 @@
+name = "potential-octo-tribble"
+compatibility_date = "2024-06-01"
+
+[build]
+command = "esbuild worker/worker.js --bundle --outfile=dist/worker.js"
+upload.format = "modules"
+upload.dir = "dist"

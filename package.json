@@ -1,0 +1,11 @@
+{
+  "name": "potential-octo-tribble",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "esbuild worker/worker.js --bundle --outfile=dist/worker.js",
+    "deploy": "wrangler publish"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
+}
